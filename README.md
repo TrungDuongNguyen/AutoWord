@@ -1,1 +1,1 @@
-I created this to clean up my desktop by organizing files by sizes or types.  
+Python program to organize desktop by size or types into folders.
