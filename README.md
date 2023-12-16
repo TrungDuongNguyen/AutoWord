@@ -1,1 +1,1 @@
-info about this project
+I created this to clean up my desktop by organizing files by sizes or types.  
