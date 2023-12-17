@@ -71,8 +71,8 @@ os.rmdir('./mp3')      """
 sorttype = pyip.inputMenu(['type','size'], numbered=True) """
 
 
-
-""" pdflst = list(a.glob('*.pdf'))
+""" 
+pdflst = list(a.glob('*.pdf'))
 print (pdflst)
 
 exelst = list(a.glob('*.exe'))
@@ -85,6 +85,6 @@ mp3lst = list(a.glob('*.mp3'))
 print (mp3lst)
 
 mp4lst = list(a.glob('*.mp4'))
-print (mp4lst) """
+print (mp4lst) 
 
  """
