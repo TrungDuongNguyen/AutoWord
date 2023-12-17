@@ -4,8 +4,7 @@ from pathlib import Path
 import shutil, os
 
 
-""" print('You can choose how you want to organize your files')
-sorttype = pyip.inputMenu(['type','size'], numbered=True) """
+
 
 listtypes = ["txts","exes","images","mp3","mp4"]
 
@@ -28,6 +27,37 @@ for filename in a.glob('*.txt'):
     }
     #move file to directory{} """     
 
+exelst = list(a.glob('*.exe'))
+for filename in a.glob('*.exe'):
+    {
+        shutil.move(filename,a/ 'exes')
+    }
+    #move file to directory{} """  
+
+imglst = list(a.glob('*.jpg'))
+for filename in a.glob('*.jpg'):
+    {
+        shutil.move(filename,a/ 'images')
+    }
+imglst = list(a.glob('*.png'))
+for filename in a.glob('*.png'):
+    {
+        shutil.move(filename,a/ 'images')
+    }
+
+mp3lst = list(a.glob('*.mp3'))
+for filename in a.glob('*.mp3'):
+    {
+        shutil.move(filename,a/ 'mp3s')
+    }
+    #move file to directory{} """  
+
+mp4lst = list(a.glob('*.mp4'))
+for filename in a.glob('*.mp4'):
+    {
+        shutil.move(filename,a/ 'mp4s')
+    }
+    #move file to directory{} """  
 """ os.rmdir('./txts')
 os.rmdir('./exes')
 os.rmdir('./images')  
@@ -37,24 +67,12 @@ os.rmdir('./mp3')      """
              
 
 
-
-
-
 """ print('You can choose how you want to organize your files')
 sorttype = pyip.inputMenu(['type','size'], numbered=True) """
 
-""" print(a)
-#b = os.path.dirname(a)
-#print(b)
-txtlst = list(a.glob('*.txt'))
-for filename in a.glob('*.txt'):
-    {
-        shutil.move(filename,a/ 'txts')
-    }
-    #move file to directory{} """
 
-""" 
-pdflst = list(a.glob('*.pdf'))
+
+""" pdflst = list(a.glob('*.pdf'))
 print (pdflst)
 
 exelst = list(a.glob('*.exe'))
@@ -69,11 +87,4 @@ print (mp3lst)
 mp4lst = list(a.glob('*.mp4'))
 print (mp4lst) """
 
-
-""" if sorttype =='type':
-    {
-
-    } """
-
-
-
+ """
